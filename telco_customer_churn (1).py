@@ -200,7 +200,7 @@ print("Confusion Matrix:\n", confusion_matrix(y_test, dt_preds))
 from sklearn.neighbors import KNeighborsClassifier
 
 # Initialize and train KNN
-knn_model = KNeighborsClassifier(n_neighbors=5)
+knn_model = KNeighborsClassifier(n_neighbors=7)
 knn_model.fit(X_train_scaled, y_train)
 
 # Predict
